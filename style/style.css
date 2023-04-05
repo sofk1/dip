@@ -1,0 +1,643 @@
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 3000px;
+    font-family: 'Prata';
+}
+
+/*Gandonka*/
+.shapka {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+    width: 1147px;
+    height: 200px;
+    align-items: center;
+
+}
+.register {
+
+    width: 25px;
+    height: 25px;
+    left: 346px;
+    top: 7px;
+
+    background: #C6C79D;
+    border-radius: 5px;
+}
+.logo {
+    display: flex;
+    width: 190px;
+    height: 200px;
+    border-radius: 20px;
+    background: #3F3A36;
+    align-items: center;
+    padding-left: 15px;
+
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+.prokrutka {
+    display: flex;
+    width: 750px;
+    height: 29px;
+    padding-left: 20px;
+
+    justify-content: space-between;
+
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+
+    color: #3F3A36;
+    }
+    .logoapple {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 1080px;
+        top: 42px;
+    }
+    .book {
+
+        width: 64px;
+        height: 64px;
+        left: 1223px;
+        top: 40px;
+        background-image: url(images/gavno.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .butts {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 25px;
+        height: 64px;
+        left: 310px;
+        top: 20px;
+    }
+    .regbutt {
+
+        width: 25px;
+        height: 25px;
+        left: 346px;
+        top: 7px;
+        display: flex;
+        justify-content: center;
+
+        background: #C6C79D;
+        border-radius: 5px;
+        border: none;
+        z-index: 0;
+
+    }
+    .kartinka {
+
+        position: absolute;
+        width: 20px;
+        height: 20px;
+
+
+        z-index: 1;
+        background-image: url(images/add_user.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logbutt {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 0px;
+        top: 33px;
+        display: flex;
+        justify-content: center;
+
+        background: #C6C79D;
+        border-radius: 5px;
+        border: none;
+        z-index: 0;
+    }
+    .kartinka2 {
+        position: absolute;
+        top: 2px;
+        width: 20px;
+        height: 20px;
+
+        z-index: 1;
+        background-image: url(images/profile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /*Osnova baza*/
+.vsevse {
+    display: flex;
+    width: 100%;
+    height: 2000px;
+    justify-content: center;
+
+}
+    .vse {
+        position: relative;
+        width: 1200px;
+        height: 3000px;
+        top: 113px;
+
+        background: #C6C79D;
+        border-radius: 20px;
+        z-index: 0;
+    }
+    .contabout {
+        position: absolute;
+        width: 635px;
+        height: 531px;
+        top: 140px;
+
+        background: #E0E0CB;
+
+    }
+    .about {
+        position: absolute;
+        width: 213px;
+        height: 23px;
+        left: 40px;
+        top: 17px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+
+        color: #3F3A36;
+    }
+    .aboutt {
+        position: absolute;
+        width: 205px;
+        height: 290px;
+        left: 410px;
+        top: 60px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+
+        color: #3F3A36;
+    }
+    .dyadya {
+        position: absolute;
+        width: 350px;
+        height: 393px;
+        left: 40px;
+        top: 60px;
+
+        background-image: url(images/dyadya.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dates {
+        position: absolute;
+        width: 503px;
+        height: 284px;
+        left: 697px;
+        top: 140px;
+
+        background: #3F3A36;
+        border-radius: 20px;
+    }
+    .dyadyachit {
+        position: absolute;
+        width: 242px;
+        height: 217px;
+        left: 30px;
+        top: 34px;
+        border-radius: 20px;
+        background-image: url(images/dyadyachitaet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .datestext {
+        position: absolute;
+        width: 199px;
+        height: 205px;
+        left: 290px;
+        top: 34px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+    }
+    .fond {
+        position: absolute;
+        width: 316px;
+        height: 234px;
+        left: 884px;
+        top: 435px;
+
+        background: #3F3A36;
+        border-radius: 20px;
+    }
+    .fondtext {
+        position: absolute;
+        width: 279px;
+        height: 209px;
+        left: 30px;
+        top: 50px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+    }
+    .auf {
+        position: absolute;
+        width: 1202px;
+        height: 139px;
+        top: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: #E0E0CB;
+    }
+    .auff {
+        width: 700px;
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #3F3A36;
+    }
+    .katalogk {
+        position: absolute;
+        width: 229px;
+        height: 22px;
+        left: 500px;
+        top: 930px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+
+        color: #3F3A36;
+    }
+    .line {
+        position: absolute;
+        width: 600px;
+        height: 0px;
+        left: 300px;
+        top: 990px;
+
+        border: 1px solid #3F3A36;
+        transform: rotate(-0.1deg);
+
+    }
+    .knigi {
+        position: absolute;
+        width: 1180px;
+        height: 480px;
+        top: 1050px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bradbury {
+        position: relative;
+        width: 250px;
+        height: 480px;
+        margin-left: 20px;
+        display: flex;
+
+    }
+    .bradimg {
+        position: absolute;
+        width: 250px;
+        height: 372px;
+
+        border-radius: 20px;
+        background-image: url(images/brad.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bradtext {
+        position: absolute;
+        width: 207px;
+        height: 76px;
+        left: 40px;
+        top: 400px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #3F3A36;
+    }
+    .camu {
+        position: relative;
+        width: 250px;
+        height: 472px;
+        display: flex;
+
+    }
+    .camuimg {
+        position: absolute;
+        width: 250px;
+        height: 372px;
+        
+        background: url(images/camu.png);
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .camutext {
+        position: absolute;
+        width: 207px;
+        height: 71px;
+        left: 25px;
+        top: 400px;
+        
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        
+        color: #3F3A36;
+    }
+    .mura {
+        position: relative;
+        width: 250px;
+        height: 446px;
+        display: flex;
+
+    }
+    .muraimg {
+        position: absolute;
+        width: 250px;
+        height: 372px;
+        
+        background: url(images/murakami.png);
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .muratext {
+        position: absolute;
+        width: 207px;
+        height: 45px;
+        left: 25px;
+        top: 400px;
+        
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        
+        color: #3F3A36;
+    }
+    .dost {
+        position: relative;
+        width: 250px;
+        height: 472px;
+        display: flex;
+
+    }
+    .dostimg {
+        position: absolute;
+        width: 250px;
+        height: 372.47px;
+        
+        background: url(images/dosya.png);
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dosttext {
+        position: absolute;
+        width: 244px;
+        height: 71px;
+        left: 25px;
+        top: 400px;
+        
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        
+        color: #3F3A36;
+    }
+    .showall {
+
+        position: absolute;
+        width: 248px;
+        height: 27px;
+        left: 480px;
+        top: 1540px;
+        border: none;
+
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #3F3A36;
+    }
+    .line2 {
+        position: absolute;
+        width: 600px;
+        height: 0px;
+        left: 300px;
+        top: 1580px;
+
+        border: 1px solid #3F3A36;
+        transform: rotate(-0.1deg);
+    }
+    .event {
+        position: absolute;
+        width: 77px;
+        height: 23px;
+        left: 555px;
+        top: 1610px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 23px;
+
+        color: #3F3A36;
+     }
+     .cprig {
+        position: absolute;
+        width: 788px;
+        height: 407px;
+        top: 1655px;    
+
+        background: #3F3A36;
+        border-radius: 20px;
+     }
+     .welcome {
+        position: absolute;
+        width: 122px;
+        height: 24px;
+        left: 40px;
+        top: 30px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #FFFFFF;
+     }
+     .evening {
+        position: absolute;
+        width: 510px;
+        height: 157px;
+        left: 40px;
+        top: 80px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+     }
+     .opbook {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 685px;
+        top: 320px;
+
+        background: url(images/icons8-открытая-книга-64.png);
+     }
+     .raspevent {
+        position: absolute;
+        width: 325px;
+        height: 779px;
+        left: 875px;
+        top: 1655px;
+
+        background: #E0E0CB;
+     }
+     .rtext {
+        position: absolute;
+        width: 151px;
+        height: 18px;
+        left: 95px;
+        top: 40px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+
+        color: #3F3A36;
+     }
+     .cthism {
+        position: absolute;
+        width: 572px;
+        height: 350px;
+        top: 2088px;
+
+        background: #3F3A36;
+        border-radius: 20px;
+     }
+     .alsotm {
+        position: absolute;
+        width: 184px;
+        height: 23px;
+        left: 40px;
+        top: 30px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+
+        color: #FFFFFF;
+     }
+     .alsotmt {
+        position: absolute;
+        width: 207px;
+        height: 82px;
+        left: 40px;
+        top: 80px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+     }
+     .alsotmi {
+        position: absolute;
+        width: 284px;
+        height: 224px;
+        left: 386px;
+        top: 1247px;
+
+        background: url(images/);
+        border-radius: 20px;
+     }
+     .newp {
+        position: absolute;
+        width: 176px;
+        height: 24px;
+        top: 1500;
+        left: 500px;
+
+        font-family: 'Prata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #3F3A36;
+     }
